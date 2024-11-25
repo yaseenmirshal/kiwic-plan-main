@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+body {
+      padding-top: 56px; /* Adjust the body padding to account for the fixed navbar */
+      font-family: 'Nova Square', sans-serif;
+    }
+
+    .jumbotron {
+      background-image: url('https://via.placeholder.com/1600x600'); /* Replace with your own image */
+      background-size: cover;
+      color: #ffffff;
+      text-align: center;
+      padding: 250px 0;
+      background-position: center;
+      margin-bottom: 0;
+    }
+
+    .feature {
+      text-align: center;
+    }
+.lead{
+  font-size: 25px;
+  color: rgb(233, 220, 34);
+  backdrop-filter: blur(2px);
+  width: fit-content;
+  margin: auto;
+}
+.homeh1{
+font-weight: 300;
+color: rgb(43, 43, 121);
+
+backdrop-filter: blur(2px);
+width: fit-content;
+margin: auto;
+}
+.homeh2{
+  font-size: larger;
+color: black;
+
+backdrop-filter: blur(2px);
+width: fit-content;
+margin: auto;
+}
+    .map-image {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 0px 0;
+      text-align: center;
+    }
+
+    .client-card {
+      margin-bottom: 20px;
+    }
+
+    .client-photo {
+      width: 80px; /* Adjust the width of the client photo */
+      height: 80px; /* Adjust the height of the client photo */
+      border-radius: 10%; /* Make the photo circular */
+    }
